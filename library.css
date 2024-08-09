@@ -1,0 +1,127 @@
+#con  div{
+   border-radius: 1em;
+    width:25%;
+    text-align: center;
+    font-size:11px;
+    margin-top: 10px;
+    border: 1px solid #052e16 ;
+    box-shadow: 1px 1px 3px 2px;
+    color: #052e16;
+}
+li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+#con img{
+    border:1px solid #065f46;
+}
+
+#con img:hover{
+    border :1px solid white;
+}
+#con{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    padding-left: 10px;
+     
+
+}
+#con span{
+    background-color:#065f46;
+    padding:10px 5px 5px 5px;
+    display: flex;
+    justify-content: end;
+    gap:10px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+}
+body{
+    display: flex;
+ 
+    
+}
+#sidebar{
+    width:20%;
+    background-color: #065f46;
+    height:600px;
+    padding: 20px 10px 10px 10px;
+   
+    
+    
+}
+
+.im{
+    width: 60%;
+    height: 20%;
+    border-radius: 50%;
+    border : 2px solid greenyellow;
+    margin-top: 10px;
+}
+#sidebar  h3 {
+     color: white;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 5px;
+}
+#logo{
+    display: flex;
+}
+
+
+
+
+#main-page{
+    width:100%;
+}
+
+dialog{
+     background-image: linear-gradient(to bottom,#d9f99d ,#052e16);
+     text-align: justify;
+     padding: 30px;
+     border:1px solid #052e16;
+     border-radius: 1em;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight:bold;
+}
+
+dialog button{
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    background-color: greenyellow;
+    border :1px solid #052e16;
+    color: #052e16;
+    border-radius: 2px;
+}
+
+dialog button:hover{
+    background-color: #052e16;
+    color: white;
+}
+
+#but{
+    background-color:#065f46 ;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+#but button{
+    padding :10px;
+    border-radius: 1em;
+    background-color: greenyellow;
+    border: 1px solid white ;
+    text-transform: uppercase;
+    color:#065f46;
+}
+#but button:hover{
+    color:#052e16;
+    background-color: white;
+    border: 1px solid red;
+}
+
+
+
+

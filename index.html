@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./library.css">
+</head>
+<body>
+
+    <div id="sidebar">
+      <div id="logo">
+        <img src="./book-open-page-variant-custom.png" alt="">
+        <h3>READ BOOK</h3>
+      </div>
+      <div id="im">
+      <img src="./istockphoto-1038739658-1024x1024.jpg" alt="" class="im">
+    </div>
+    </div>
+    <div id="main-page">
+    <div id="but">
+    <button onclick="upload(event)">Upload new book</button>
+   </div>
+
+
+    <dialog id="dialog-up" >
+        
+             <h2>Create The Book</h2>
+             <form id="cre-form">
+            <li><label>Bookname : <br><input type="text" name="book" id="bookup" autocomplete="off"></label></li>
+            <li><label>Author name : <br><input type="text" name="author" id="authorup" autocomplete="off"></label></li>
+            <li><label>Pages : <br><input type="text" name="" id="pagesup" autocomplete="off"></label></li>
+            <li><label>Read : <input type="checkbox"   id="checkup" autocomplete="off"></label></li>
+            <li><button onclick="closeup(event)">cancel</button><button onclick="submitup(event)">submit</button> </li>
+            </form>
+      
+    </dialog>
+    <dialog id="dialog-edit" >
+            <h2>Edit The Book</h2>
+            
+            <li><label>Bookname: <br><input type="text" name="book" id="book"></label></li>
+            <li><label>Author name : <br><input type="text" name="author" id="author"></label></li>
+            <li><label>pages : <br><input type="text" name="" id="pages"></label></li>
+            <li><label>Read<input type="checkbox" value="read"  id="check"></label></li>
+            <li><button onclick="closed(event)">close</button> <button onclick="editform(event)">submit</button></li>
+        
+    </dialog>
+    
+    
+    <div id="con">
+        
+     <!-- page........... -->
+    </div>
+
+</div>
+    <script  src="./library.js"></script>
+    <script  src="./script2.js"></script>
+    <script src="./upload.js"></script>
+    
+   
+
+</body>
+</html>
